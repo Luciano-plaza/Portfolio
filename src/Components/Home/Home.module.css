@@ -9,21 +9,6 @@ body{
     flex-wrap: wrap;
 }
 .project{
-    width: 25%;
-    height: 100%;
+    width: 20%;
+    height: 10em;
 }
-.title{
-
-}
-.img{
-
-}
-/* .repository{
-
-}
-.deployment{
-
-}
-.description{
-
-} */

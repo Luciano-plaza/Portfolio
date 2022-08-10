@@ -1,7 +1,7 @@
 // import { useState, useEffect } from "react";
-import YourJob from "../../Sensible information/imagePF1.jpeg";
-import PI_Foodies from "../../Sensible information/PI-Foodies.jpg";
-import projects from "../../Sensible information/Projects.json";
+import YourJob from "../../Information/imagePF1.jpeg";
+import PI_Foodies from "../../Information/PI-Foodies.jpg";
+import projects from "../../Information/Projects.json";
 import Project from "../Project/index.jsx";
 import Nav from "../Nav/index.jsx";
 import style from "./Home.module.css";
@@ -13,11 +13,12 @@ export default function HomeSpanish() {
       <Nav />
       <div className={style.projects__container}>
         {projects?.map((project) => {
+          console.log(Images.find((img) => img === project.img));
           return (
             <div key={project.id} className={style.project}>
               <Project
                 Title={project.title}
-                image={Images.find(img__name => img__name === project.title)}
+                image={Images.find((img) => img === project.img)}
                 repo={project.repository}
                 deploy={project.deployment}
                 description={project.description}
