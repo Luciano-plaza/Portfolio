@@ -1,11 +1,11 @@
-import { Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import Home from '../src/Components/Home/indexSpanish.jsx'
 import "./App.css";
 
 function App() {
   return (
     <Routes>
-      {/* <Route path="/" element={}/>
-      <Route path="/" element={}/> */}
+      <Route path="/" element={<Home/>}/>
     </Routes>
   );
 }

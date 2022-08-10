@@ -1,0 +1,29 @@
+body{
+    background-color: darkcyan;
+}
+.projects__container{
+    display: flex;
+    margin: 2em 10%;
+    width: 80%;
+    height: auto;
+    flex-wrap: wrap;
+}
+.project{
+    width: 25%;
+    height: 100%;
+}
+.title{
+
+}
+.img{
+
+}
+/* .repository{
+
+}
+.deployment{
+
+}
+.description{
+
+} */

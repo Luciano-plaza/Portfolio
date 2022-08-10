@@ -1,0 +1,21 @@
+nav{
+  /* position: fixed; */
+  font-family: "Darker Grotesque", sans-serif;
+  background-color: rgb(27, 0, 80);
+  color: aliceblue;
+  width: 100%;
+}
+
+.nav__container{
+  height: 2.8em;
+  font-size: 1.4em;
+  display: flex;
+  margin-left: 60%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav__element{
+  padding: 0.5em;
+  cursor: pointer;
+}
