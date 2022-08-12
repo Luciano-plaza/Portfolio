@@ -1,0 +1,6 @@
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 2em 10%;
+}

@@ -1,19 +1,4 @@
-.Projects{
-    background-color: aqua;
+.project__img {
+  width: 100%;
+  height: 100%;
 }
-.title{
-
-}
-.image{
-    width: 100%;
-    height: 100%
-}
-/* .repository{
-
-}
-.deployment{
-
-}
-.description{
-
-} */

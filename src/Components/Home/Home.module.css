@@ -1,14 +1,15 @@
 body{
     background-color: darkcyan;
 }
-.projects__container{
+.home__projects__container{
     display: flex;
-    margin: 2em 10%;
-    width: 80%;
-    height: auto;
     flex-wrap: wrap;
+    margin: 2em 17%;
+    width: 66%;
+    max-height: 240em;
+    border: 2px solid black;
 }
-.project{
-    width: 20%;
-    height: 10em;
+.home__project{
+    width: 25%;
+    height: 13em;
 }
