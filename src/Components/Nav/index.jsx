@@ -2,13 +2,21 @@ import style from "./Nav.module.css";
 
 export default function Nav() {
   return (
-    <nav>
+    <header>
       <div className={style.nav__container}>
-        <div className={style.nav__element}>Inicio</div>
-        <div className={style.nav__element}>Acerca de mí</div>
-        <div className={style.nav__element}>Projectos</div>
-        <div className={style.nav__element}>Contacto</div>
+        <div className={style.nav__element}>
+          <a href="#beginning">Inicio</a>
+        </div>
+        <div className={style.nav__element}>
+          <a href="#about">Acerca de mí</a>
+        </div>
+        <div className={style.nav__element}>
+          <a href="#projects">Projectos</a>
+        </div>
+        <div className={style.nav__element}>
+          <a href="#contact">Contacto</a>
+        </div>
       </div>
-    </nav>
+    </header>
   );
 }

@@ -1,15 +1,22 @@
-body{
-    background-color: darkcyan;
+body {
+  background-color: darkcyan;
 }
-.home__projects__container{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2em 17%;
-    width: 66%;
-    max-height: 240em;
-    border: 2px solid black;
+.home__projects__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em 17%;
+  width: 66%;
+  max-height: 240em;
+  border: 2px solid black;
 }
-.home__project{
-    width: 25%;
-    height: 13em;
+.home__project {
+  width: 25%;
+  height: 13em;
+}
+
+.home__project__description {
+}
+.home__project__title {
+}
+.home__project__link {
 }

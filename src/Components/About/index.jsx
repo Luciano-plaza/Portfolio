@@ -1,9 +1,10 @@
-import Photo from "../../Information/photo__about.jpg";
+import Photo from "../../Images/photo__about.jpg";
 import style from "./About.module.css";
 
 export default function About() {
   return (
     <div className={style.about__container}>
+      <h2 id="about">About</h2>
       <h2 className={style.about__title}>Luciano Plaza</h2>
       <img className={style.about__img} src={Photo} alt="Luciano Plaza" />
       <div className={style.about__description}>

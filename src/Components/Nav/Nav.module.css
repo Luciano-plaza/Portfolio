@@ -1,12 +1,14 @@
-nav{
-  /* position: fixed; */
+header {
+  position: fixed;
+  margin-top: -2em;
   font-family: "Darker Grotesque", sans-serif;
   background-color: rgb(27, 0, 80);
   color: aliceblue;
   width: 100%;
+  z-index: 300;
 }
 
-.nav__container{
+.nav__container {
   height: 2.8em;
   font-size: 1.4em;
   display: flex;
@@ -15,7 +17,7 @@ nav{
   align-items: center;
 }
 
-.nav__element{
+.nav__element {
   padding: 0.5em;
   cursor: pointer;
 }

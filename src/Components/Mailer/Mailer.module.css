@@ -1,28 +1,31 @@
 .mailer__form {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
-.mailer__email, .mailer__text, .mailer__submit {
-    border: 1px solid silver;
-    border-radius: .5em;
+.mailer__email,
+.mailer__text,
+.mailer__submit {
+  border: 1px solid silver;
+  border-radius: 0.5em;
+  outline: none;
+  border: none;
+}
+.mailer__email {
+  margin: 2em 0 0.2em 0;
+  width: 40em;
+  height: 2em;
+}
 
-}
-.mailer__email{
-    margin: 2em 0 .2em 0;
-    width: 40em;
-    height: 2em;
-}
-
-.mailer__text{
-    max-width: 40em;
-    min-width: 40em;
-    max-height: 10em;
-    min-height: 10em;
+.mailer__text {
+  max-width: 40em;
+  min-width: 40em;
+  max-height: 10em;
+  min-height: 10em;
 }
 
 .mailer__submit {
-    margin: .2em auto;
-    width: 4em;
-    height: 1.5em;
+  margin: 0.2em auto;
+  width: 4em;
+  height: 1.5em;
 }

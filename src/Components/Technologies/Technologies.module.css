@@ -1,0 +1,60 @@
+.technologies__container {
+  margin: 4rem auto;
+  width: 86%;
+  height: 18rem;
+  overflow: hidden;
+}
+
+.technologies__banner {
+  display: flex;
+  background-color: aliceblue;
+  align-items: center;
+  padding: 1rem;
+  width: calc(10rem * 26);
+  height: 10rem;
+  animation: scroll 30s linear infinite;
+  -webkit-animation: scroll 30s linear infinite;
+}
+.shadow {
+  height: 12rem;
+  width: 10rem;
+  position: absolute;
+  left: 7%;
+  box-shadow: inset 5em 0 5em aliceblue;
+  z-index: 50;
+}
+
+.shadow2 {
+  height: 12rem;
+  width: 10rem;
+  position: absolute;
+  right: 7%;
+  box-shadow: inset 5em 0 5em aliceblue;
+  z-index: 50;
+  transform: rotate(180deg);
+}
+
+.tech__container {
+  width: 10rem;
+  height: auto;
+  margin: 0 0.75rem;
+}
+
+.tech__container img {
+  width: 100%;
+}
+
+.css {
+  height: 8rem;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+    -webkit-animation: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-10rem * 13));
+    -webkit-animation: translateX(calc(-10rem * 13));
+  }
+}
