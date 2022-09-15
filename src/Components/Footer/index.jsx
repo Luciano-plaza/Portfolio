@@ -1,6 +1,5 @@
 import Mailer from "../Mailer/index.jsx";
 import style from "./Footer.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
   return (
@@ -8,16 +7,16 @@ export default function Footer() {
       <Mailer />
       <div>
         <div>
-          <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
+          {/* <FontAwesomeIcon icon="fa-brands fa-linkedin-in" /> */}
         </div>
         <div>
-          <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
+          {/* <FontAwesomeIcon icon="fa-brands fa-whatsapp" /> */}
         </div>
         <div>
-          <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
+          {/* <FontAwesomeIcon icon="fa-brands fa-whatsapp" /> */}
         </div>
         <div>
-          <FontAwesomeIcon icon="fa-brands fa-github" />
+          {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
         </div>
       </div>
     </div>

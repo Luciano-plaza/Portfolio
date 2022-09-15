@@ -1,11 +1,12 @@
 header {
   position: fixed;
-  margin-top: -2em;
+  margin-top: -5rem;
   font-family: "Darker Grotesque", sans-serif;
-  background-color: rgb(27, 0, 80);
+  background-color: rgb(67, 38, 109);
   color: aliceblue;
   width: 100%;
   z-index: 300;
+  font-family: "Inconsolata", monospace;
 }
 
 .nav__container {
@@ -20,4 +21,8 @@ header {
 .nav__element {
   padding: 0.5em;
   cursor: pointer;
+}
+.nav__element a {
+  color: beige;
+  text-decoration: none;
 }

@@ -5,16 +5,13 @@ export default function Nav() {
     <header>
       <div className={style.nav__container}>
         <div className={style.nav__element}>
-          <a href="#beginning">Inicio</a>
-        </div>
-        <div className={style.nav__element}>
           <a href="#about">Acerca de mí</a>
         </div>
         <div className={style.nav__element}>
           <a href="#projects">Projectos</a>
         </div>
         <div className={style.nav__element}>
-          <a href="#contact">Contacto</a>
+          <a href="#contacto">Contacto</a>
         </div>
       </div>
     </header>

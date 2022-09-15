@@ -11,8 +11,8 @@ export default function HomeSpanish() {
       <Nav />
       <About />
       <Technologies />
-      <h2 id="projects">Projects</h2>
       <div className={style.home__projects__container}>
+        <h2 id="projects">Projects</h2>
         <div className={style.home__project}>
           <label className={style.home__project__title}>Foodies</label>
           <p className={style.home__project__description}></p>

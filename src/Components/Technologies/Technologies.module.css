@@ -11,25 +11,26 @@
   align-items: center;
   padding: 1rem;
   width: calc(10rem * 26);
-  height: 10rem;
+  height: 8rem;
   animation: scroll 30s linear infinite;
   -webkit-animation: scroll 30s linear infinite;
+  border-radius: 1em;
 }
 .shadow {
-  height: 12rem;
-  width: 10rem;
+  height: 10rem;
+  width: 70%;
   position: absolute;
   left: 7%;
-  box-shadow: inset 5em 0 5em aliceblue;
+  box-shadow: inset 3em 0 3em aliceblue;
   z-index: 50;
 }
 
 .shadow2 {
-  height: 12rem;
-  width: 10rem;
+  height: 10rem;
+  width: 16%;
   position: absolute;
   right: 7%;
-  box-shadow: inset 5em 0 5em aliceblue;
+  box-shadow: inset 3em 0 3em aliceblue;
   z-index: 50;
   transform: rotate(180deg);
 }
@@ -46,6 +47,11 @@
 
 .css {
   height: 8rem;
+}
+
+.technologies__title {
+  text-align: center;
+  color: lightblue;
 }
 
 @keyframes scroll {
