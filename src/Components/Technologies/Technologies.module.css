@@ -1,13 +1,12 @@
 .technologies__container {
-  margin: 4rem auto;
+  margin: 8rem auto;
   width: 86%;
   height: 18rem;
   overflow: hidden;
 }
-
 .technologies__banner {
   display: flex;
-  background-color: aliceblue;
+  background-color: cornsilk;
   align-items: center;
   padding: 1rem;
   width: calc(10rem * 26);
@@ -21,34 +20,32 @@
   width: 70%;
   position: absolute;
   left: 7%;
-  box-shadow: inset 3em 0 3em aliceblue;
+  box-shadow: inset 3em 0 3em cornsilk;
   z-index: 50;
 }
-
 .shadow2 {
   height: 10rem;
   width: 16%;
   position: absolute;
   right: 7%;
-  box-shadow: inset 3em 0 3em aliceblue;
+  box-shadow: inset 3em 0 3em cornsilk;
   z-index: 50;
   transform: rotate(180deg);
 }
-
 .tech__container {
   width: 10rem;
   height: auto;
   margin: 0 0.75rem;
 }
-
 .tech__container img {
   width: 100%;
 }
-
 .css {
   height: 8rem;
 }
-
+.sequelize {
+  height: 9rem;
+}
 .technologies__title {
   text-align: center;
   color: lightblue;

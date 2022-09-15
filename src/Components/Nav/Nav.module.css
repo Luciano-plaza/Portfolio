@@ -1,12 +1,12 @@
 header {
   position: fixed;
-  margin-top: -5rem;
+  margin-top: -8rem;
   font-family: "Darker Grotesque", sans-serif;
-  background-color: rgb(67, 38, 109);
-  color: aliceblue;
+  background-color: burlywood;
   width: 100%;
   z-index: 300;
   font-family: "Inconsolata", monospace;
+  box-shadow: 0 0 0.5em 0.15em burlywood;
 }
 
 .nav__container {
@@ -23,6 +23,7 @@ header {
   cursor: pointer;
 }
 .nav__element a {
-  color: beige;
+  color: #09203f;
   text-decoration: none;
+  font-weight: 300;
 }

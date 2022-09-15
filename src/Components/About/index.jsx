@@ -2,6 +2,9 @@
 import Photo from "../../Images/photo__about.jpg";
 import style from "./About.module.css";
 import Tilt from "react-parallax-tilt";
+import GitHub from "../../Icons/GitHub.svg";
+import LinkedIn from "../../Icons/LinkedIn.svg";
+import Resume from "../../Icons/Resume.svg";
 
 export default function About() {
   return (
@@ -29,15 +32,33 @@ export default function About() {
           </div>
           <div className={style.about__objectives}></div>
           <div className={style.about__links}>
-            <div className={`${style.about__linkedin} ${style.about__link}`}>
+            <a
+              className={`${style.about__linkedin} ${style.about__link}`}
+              href="https://www.linkedin.com/in/lucianoplazadev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkedIn />
               LinkedIn
-            </div>
-            <div className={`${style.about__github} ${style.about__link}`}>
+            </a>
+            <a
+              className={`${style.about__github} ${style.about__link}`}
+              href="https://github.com/Luciano-plaza"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GitHub />
               GitHub
-            </div>
-            <div className={`${style.about__cv} ${style.about__link}`}>
+            </a>
+            <a
+              className={`${style.about__cv} ${style.about__link}`}
+              href="../../CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Resume />
               Currículum
-            </div>
+            </a>
           </div>
         </div>
       </Tilt>
