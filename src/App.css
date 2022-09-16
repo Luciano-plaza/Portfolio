@@ -8,7 +8,6 @@ body {
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-  text-decoration: none;
 }
 
 ::-webkit-scrollbar {

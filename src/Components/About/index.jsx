@@ -38,7 +38,7 @@ export default function About() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <LinkedIn />
+              <img src={LinkedIn} alt="LinkedIn" />
               LinkedIn
             </a>
             <a
@@ -47,7 +47,7 @@ export default function About() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <GitHub />
+              <img src={GitHub} alt="GitHub" />
               GitHub
             </a>
             <a
@@ -56,7 +56,7 @@ export default function About() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Resume />
+              <img src={Resume} alt="Resume" />
               Currículum
             </a>
           </div>

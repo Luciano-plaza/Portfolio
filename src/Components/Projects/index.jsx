@@ -3,7 +3,7 @@ import style from "./Projects.module.css";
 export default function Projects() {
   return (
     <div className={style.projects__container} id="projects">
-      <h2 cl>Projects</h2>
+      <h2>Projects</h2>
       <div className={style.project}>
         <h3 className={style.project__title}>Foodies</h3>
         <p className={style.project__description}>

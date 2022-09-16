@@ -64,6 +64,7 @@
   border: 1px solid black;
   cursor: pointer;
   animation: link 3s alternate infinite ease-in-out;
+  text-decoration: none;
 }
 
 @keyframes link {
