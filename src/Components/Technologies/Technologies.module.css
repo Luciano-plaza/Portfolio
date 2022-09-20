@@ -1,5 +1,5 @@
 .technologies__container {
-  margin: 8rem auto;
+  margin: 6rem auto;
   width: 86%;
   height: 18rem;
   overflow: hidden;
@@ -51,6 +51,7 @@
   color: lightblue;
 }
 
+/* Eventos y animaciones */
 @keyframes scroll {
   0% {
     transform: translateX(0);

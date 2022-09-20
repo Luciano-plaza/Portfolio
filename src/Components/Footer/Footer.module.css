@@ -1,6 +1,13 @@
 .footer__container {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: 0 10% 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 10% 5rem;
+}
+
+.footer__title {
+    text-align: center;
+  color: lightblue;
+    font-weight: 800;
+    font-size: 1.5rem;
 }

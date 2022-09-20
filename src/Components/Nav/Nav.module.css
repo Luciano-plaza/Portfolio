@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap");
+
 header {
   position: fixed;
-  margin-top: -8rem;
+  margin-top: -6rem;
   font-family: "Darker Grotesque", sans-serif;
   background-color: burlywood;
   width: 100%;
   z-index: 300;
   font-family: "Inconsolata", monospace;
-  box-shadow: 0 0 0.5em 0.15em burlywood;
 }
 
 .nav__container {
