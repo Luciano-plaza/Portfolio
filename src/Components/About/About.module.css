@@ -22,10 +22,10 @@
     "photo photo photo . objectives objectives objectives"
     "links links links links links links links";
   gap: 1em;
-  background-color: rgba(197, 197, 191, 0.5);
+  background-color: var(--color-white);
   border-radius: 1em;
-  border: rgb(172, 172, 172) 1px solid;
-  box-shadow: 0 0 2em 0.5em rgb(172, 172, 172);
+  border: var(--color-white) 1px solid;
+  box-shadow: 0 0 2em 0.5em var(--color-white);
 }
 
 .about__title {
@@ -61,24 +61,17 @@
 
 .about__link {
   padding: 0.5em 1em;
-  border: 1px solid black;
+  margin-bottom: 1em;
+  border: 1px solid var(--color-black);
   cursor: pointer;
-  animation: link 3s alternate infinite ease-in-out;
+  color: var(--color-black);
+  transition: all 0.5s ease-out ;
+  background-color: transparent;
   text-decoration: none;
 }
 
 /* Eventos y animaciones */
-@keyframes link {
-  25% {
-    box-shadow: 0 -3px 0 0 beige;
-  }
-  50% {
-    box-shadow: 3px 0 0 0 beige;
-  }
-  75% {
-    box-shadow: 0 3px 0 0 beige;
-  }
-  100% {
-    box-shadow: -3px 0 0 0 beige;
-  }
+.about__link:hover {
+  background-color: var(--color-2);
+  transform: scale(1.1);
 }

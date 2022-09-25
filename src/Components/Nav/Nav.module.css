@@ -1,10 +1,8 @@
 header {
   position: fixed;
-  font-family: "Darker Grotesque", sans-serif;
-  background-color: burlywood;
+  background-color: var(--color-2);
   width: 100%;
   z-index: 300;
-  font-family: "Inconsolata", monospace;
 }
 
 .nav__container {
@@ -21,7 +19,7 @@ header {
   cursor: pointer;
 }
 .nav__element a {
-  color: #09203f;
+  color: var(--color-black);
   text-decoration: none;
   font-family: "Oleo Script", cursive;
 }

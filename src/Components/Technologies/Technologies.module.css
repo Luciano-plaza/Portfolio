@@ -6,7 +6,7 @@
 }
 .technologies__banner {
   display: flex;
-  background-color: cornsilk;
+  background-color: var(--color-white);
   align-items: center;
   padding: 1rem;
   width: calc(10rem * 26);
@@ -20,7 +20,7 @@
   width: 70%;
   position: absolute;
   left: 7%;
-  box-shadow: inset 3em 0 3em cornsilk;
+  box-shadow: inset 3em 0 3em var(--color-white);
   z-index: 50;
 }
 .shadow2 {
@@ -28,7 +28,7 @@
   width: 16%;
   position: absolute;
   right: 7%;
-  box-shadow: inset 3em 0 3em cornsilk;
+  box-shadow: inset 3em 0 3em var(--color-white);
   z-index: 50;
   transform: rotate(180deg);
 }
@@ -48,7 +48,6 @@
 }
 .technologies__title {
   text-align: center;
-  color: lightblue;
 }
 
 /* Eventos y animaciones */

@@ -4,7 +4,8 @@ import style from "./About.module.css";
 import Tilt from "react-parallax-tilt";
 import GitHub from "../../Icons/GitHub.svg";
 import LinkedIn from "../../Icons/LinkedIn.svg";
-import Resume from "../../Icons/Resume.svg";
+import ResumePhoto from "../../Icons/Resume.svg";
+import Resume from "../../CV.pdf";
 
 export default function About() {
   return (
@@ -52,11 +53,11 @@ export default function About() {
             </a>
             <a
               className={`${style.about__cv} ${style.about__link}`}
-              href="../../CV.pdf"
+              href={Resume}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={Resume} alt="Resume" />
+              <img src={ResumePhoto} alt="Resume" />
               Currículum
             </a>
           </div>
