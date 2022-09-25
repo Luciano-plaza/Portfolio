@@ -1,8 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap");
-
 header {
   position: fixed;
-  margin-top: -6rem;
   font-family: "Darker Grotesque", sans-serif;
   background-color: burlywood;
   width: 100%;
@@ -26,5 +23,5 @@ header {
 .nav__element a {
   color: #09203f;
   text-decoration: none;
-  font-weight: 300;
+  font-family: "Oleo Script", cursive;
 }

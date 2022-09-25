@@ -14,18 +14,22 @@
 .mailer__email {
   margin: 2em 0 0.2em 0;
   width: 40em;
-  height: 2em;
+  height: 3em;
 }
 
 .mailer__text {
   max-width: 40em;
   min-width: 40em;
-  max-height: 10em;
-  min-height: 10em;
+  max-height: 12em;
+  min-height: 12em;
 }
 
 .mailer__submit {
-  margin: 0.2em auto;
-  width: 4em;
-  height: 1.5em;
+  position: absolute;
+  left: calc(50% + 17rem);
+  background-color: transparent;
+  padding: 0;
+  width: 3em;
+  height: 3em;
+  margin: 2em auto;
 }

@@ -22,7 +22,7 @@ export default function About() {
           <div className={style.about__description}>
             <span className={style.about__description__opening}>Buenas!</span>{" "}
             Soy Luciano, tengo 20 años y muchas ganas de aprender y
-            desarrollarme para seguir mejorando en este hermoso campo; aquí voy
+            desarrollarme para seguir mejorando en este hermoso sector; aquí voy
             a estar subiendo proyectos de tecnologías que vaya aprendiendo y
             llegar a volcar todos mis conocimientos y habilidades (blandas y
             duras). Desarrollador Web Full Stack orientado al Front-End pero
