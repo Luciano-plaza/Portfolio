@@ -2,11 +2,11 @@ import style from "./Projects.module.css";
 import Foodies from "../../Images/PI-Foodies.png";
 import YourJob from "../../Images/PF-YourJob.jpeg";
 
-export default function Projects() {
+export default function Projects(props) {
   return (
     <section className={style.projects__container} id="projects">
       <h2>Projects</h2>
-      <div className={style.project}>
+      <div className={`${style.project}`}>
         <img src={Foodies} alt="Foodies" className={style.project__img} />
         <h3 className={style.project__title}>Foodies</h3>
         <p className={style.project__description}>
@@ -40,7 +40,7 @@ export default function Projects() {
           <button>App</button>
         </a>
       </div>
-      <div className={style.project}>
+      <div className={`${style.project}`}>
         <img src={YourJob} alt="YourJob" className={style.project__img} />
         <h3 className={style.project__title}>Your Job</h3>
         <p className={style.project__description}>

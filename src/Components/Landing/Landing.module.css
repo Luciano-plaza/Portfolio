@@ -29,6 +29,20 @@
   padding: 0.2em;
 }
 
+.landing__arrow {
+  position: absolute;
+  right: 50%;
+  top: 90%;
+  transition: 1s ease;
+  background-color: var(--color-2);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.landing__arrow a img {
+  animation: bell 1.3s infinite ease;
+}
+
 .landing__container span:nth-child(1) {
   transform: translate(-40vw);
   animation: span1 var(--time) forwards 1 ease-out;
@@ -64,6 +78,41 @@
 .landing__container span:nth-child(10) {
   transform: translate(40vw, 40vh);
   animation: span10 var(--time) 4s forwards 1 ease-out;
+}
+
+/* Eventos y animaciones */
+.landing__arrow:hover {
+  transform: scale(1.2);
+}
+
+@keyframes bell {
+  0% {
+    transform: rotate(0);
+  }
+  12% {
+    transform: scale(1.05) rotate(10deg);
+  }
+  24% {
+    transform: rotate(-10deg);
+  }
+  36% {
+    transform: rotate(10deg);
+  }
+  48% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(10deg);
+  }
+  72% {
+    transform: rotate(-10deg);
+  }
+  84% {
+    transform: rotate(10deg) scale(1);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }
 
 @keyframes span1 {

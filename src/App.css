@@ -21,7 +21,7 @@ body {
   background-image: linear-gradient(
     180deg,
     var(--color-white) 0%,
-    #23b5d3 100%
+    var(--color-black) 100%
   );
   color: var(--color-black);
 }
@@ -29,15 +29,17 @@ body {
 h2 {
   font-family: "Caveat", cursive;
   font-size: 2.5rem;
-  color: var(--color-black);
+  color: var(--color-white);
 }
 
 ::-webkit-scrollbar {
+  /* display: none; */
   width: 10px;
   height: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
+  /* display: none; */
   background-color: var(--color-black);
 }
 

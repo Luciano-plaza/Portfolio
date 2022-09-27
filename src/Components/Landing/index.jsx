@@ -1,4 +1,5 @@
 import style from "./Landing.module.css";
+import Arrow from "../../Icons/ArrowDown.svg";
 
 export default function Landing() {
   return (
@@ -14,6 +15,11 @@ export default function Landing() {
         <span>poco</span>
         <span>sobre</span>
         <span>mí</span>
+      </div>
+      <div className={style.landing__arrow}>
+        <a href="#about">
+          <img src={Arrow} alt="Down" />
+        </a>
       </div>
     </section>
   );
