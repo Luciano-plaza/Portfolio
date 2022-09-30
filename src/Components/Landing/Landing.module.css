@@ -13,17 +13,17 @@
 
 .landing__container {
   position: relative;
-  top: 15rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  top: 17rem;
   width: 50rem;
-  height: 40vh;
+  height: 30vh;
 }
 
 .landing__container span {
-  font-size: 4.5rem;
+  font-size: 4.3rem;
   font-weight: 700;
   font-family: "Oleo Script", cursive;
   padding: 0.2em;
@@ -31,7 +31,7 @@
 
 .landing__arrow {
   position: absolute;
-  right: 50%;
+  right: 47%;
   top: 90%;
   transition: 1s ease;
   background-color: var(--color-2);
@@ -56,27 +56,27 @@
   animation: span4 var(--time) 1s forwards 1 ease-out;
 }
 .landing__container span:nth-child(5) {
-  transform: translate(40vw);
+  transform: translate(50vw);
   animation: span5 var(--time) 1.5s forwards 1 ease-out;
 }
 .landing__container span:nth-child(6) {
-  transform: translate(-40vw, 40vh);
+  transform: translate(-50vw, 50vh);
   animation: span6 var(--time) 2s forwards 1 ease-out;
 }
 .landing__container span:nth-child(7) {
-  transform: translate(-20vw, 55vh);
+  transform: translate(-30vw, 60vh);
   animation: span7 var(--time) 2.5s forwards 1 ease-out;
 }
 .landing__container span:nth-child(8) {
-  transform: translateY(50vh);
+  transform: translateY(60vh);
   animation: span8 var(--time) 3s forwards 1 ease-out;
 }
 .landing__container span:nth-child(9) {
-  transform: translate(20vw, 55vh);
+  transform: translate(30vw, 60vh);
   animation: span9 var(--time) 3.5s forwards 1 ease-out;
 }
 .landing__container span:nth-child(10) {
-  transform: translate(40vw, 40vh);
+  transform: translate(50vw, 50vh);
   animation: span10 var(--time) 4s forwards 1 ease-out;
 }
 
@@ -144,7 +144,7 @@
 
 @keyframes span5 {
   0% {
-    transform: translateX(40vw);
+    transform: translateX(50vw);
   }
   100% {
     transform: translateX(0);
@@ -153,7 +153,7 @@
 
 @keyframes span6 {
   0% {
-    transform: translate(-40vw, 40vh);
+    transform: translate(-50vw, 50vh);
   }
   100% {
     transform: translate(0);
@@ -162,7 +162,7 @@
 
 @keyframes span7 {
   0% {
-    transform: translate(-20vw, 55vh);
+    transform: translate(-30vw, 70vh);
   }
   100% {
     transform: translate(0);
@@ -171,7 +171,7 @@
 
 @keyframes span8 {
   0% {
-    transform: translateY(50vh);
+    transform: translateY(60vh);
   }
   100% {
     transform: translateY(0);
@@ -180,7 +180,7 @@
 
 @keyframes span9 {
   0% {
-    transform: translate(20vw, 55vh);
+    transform: translate(30vw, 60vh);
   }
   100% {
     transform: translate(0);
@@ -189,9 +189,28 @@
 
 @keyframes span10 {
   0% {
-    transform: translate(40vw, 40vh);
+    transform: translate(50vw, 50vh);
   }
   100% {
     transform: translate(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  html {
+    width: 102%;
+  }
+  .landing__container {
+    height: fit-content;
+    margin: 1em;
+    top: 10em;
+  }
+  .landing__container span {
+    font-size: 3em;
+  }
+  .landing__container span:nth-child(n) {
+    transform: translate(0);
+    animation: none;
   }
 }

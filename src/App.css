@@ -33,13 +33,11 @@ h2 {
 }
 
 ::-webkit-scrollbar {
-  /* display: none; */
   width: 10px;
   height: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  /* display: none; */
   background-color: var(--color-black);
 }
 

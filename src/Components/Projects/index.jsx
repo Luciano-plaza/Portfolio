@@ -23,22 +23,24 @@ export default function Projects(props) {
           </li>
           <li>Crear recetas propias</li>
         </ul>
-        <a
-          className={style.project__link}
-          href="https://github.com/Luciano-plaza/PI-FOOD"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button>Código</button>
-        </a>
-        <a
-          className={style.project__link}
-          href="https://pi-food-liard.vercel.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button>App</button>
-        </a>
+        <div className={style.project__links}>
+          <a
+            className={style.project__link}
+            href="https://github.com/Luciano-plaza/PI-FOOD"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Código</button>
+          </a>
+          <a
+            className={style.project__link}
+            href="https://pi-food-liard.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>App</button>
+          </a>
+        </div>
       </div>
       <div className={`${style.project}`}>
         <img src={YourJob} alt="YourJob" className={style.project__img} />
@@ -58,22 +60,24 @@ export default function Projects(props) {
             empresas
           </li>
         </ul>
-        <a
-          className={style.project__link}
-          href="https://github.com/Luciano-plaza/Your-Job"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button>Código</button>
-        </a>
-        <a
-          className={style.project__link}
-          href="https://your-job-seven.vercel.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button>App</button>
-        </a>
+        <div className={style.project__links}>
+          <a
+            className={style.project__link}
+            href="https://github.com/Luciano-plaza/Your-Job"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Código</button>
+          </a>
+          <a
+            className={style.project__link}
+            href="https://your-job-seven.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>App</button>
+          </a>
+        </div>
       </div>
     </section>
   );

@@ -13,7 +13,6 @@
   height: 8rem;
   animation: scroll 30s linear infinite;
   -webkit-animation: scroll 30s linear infinite;
-  border-radius: 1em;
 }
 .shadow {
   height: 10rem;
@@ -59,5 +58,13 @@
   100% {
     transform: translateX(calc(-10rem * 13));
     -webkit-animation: translateX(calc(-10rem * 13));
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .shadow2 {
+    width: 18%;
+    right: 5%;
   }
 }
