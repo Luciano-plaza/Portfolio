@@ -1,9 +1,13 @@
 import style from "./Landing.module.css";
 import Arrow from "../../Icons/ArrowDown.svg";
+import Landing_video from "../../Images/Landing.mp4";
 
 export default function Landing() {
   return (
     <section className={style.landing}>
+      <video muted autoPlay loop>
+        <source src={Landing_video} />
+      </video>
       <div className={style.landing__container}>
         <span>Hola,</span>
         <span>soy</span>

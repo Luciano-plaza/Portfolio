@@ -29,14 +29,17 @@
 .mailer__submit {
   background-color: transparent;
   padding: 0;
-  width: 3em;
-  height: 3em;
+  width: 5em;
+  height: 5em;
   margin: 1em auto;
+}
+
+.mailer__submit img {
   cursor: pointer;
 }
 
 /* Responsive */
-@media (max-width: 1050px) {
+@media (max-width: 768px) {
   .mailer__form {
     width: 75%;
   }

@@ -1,6 +1,6 @@
 import style from "./Projects.module.css";
-import Foodies from "../../Images/PI-Foodies.png";
-import YourJob from "../../Images/PF-YourJob.jpeg";
+import Foodies from "../../Images/PI-Foodies.WebP";
+import YourJob from "../../Images/PF-YourJob.WebP";
 
 export default function Projects(props) {
   return (

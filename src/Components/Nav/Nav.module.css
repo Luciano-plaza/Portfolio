@@ -35,6 +35,9 @@ header {
 }
 
 @media (max-width: 768px) {
+  .nav__element:hover a {
+    box-shadow: none;
+  }
   .nav__menu {
     position: absolute;
     top: 20%;
@@ -42,21 +45,4 @@ header {
     display: inline-block;
     cursor: pointer;
   }
-
-
-
-  
-  /* .nav__container {
-    padding: 3em;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-    clip-path: circle (0 at center);
-    transition: clip-path 1s ease-in-out;
-  }
-  .nav__check:checked + .nav__container {
-    clip-path: circle (100% at center);
-  } */
 }

@@ -1,5 +1,4 @@
-// import { useState } from "react";
-import Photo from "../../Images/photo__about.jpg";
+import Photo from "../../Images/photo__about.WebP";
 import style from "./About.module.css";
 import Tilt from "react-parallax-tilt";
 import GitHub from "../../Icons/GitHub.svg";

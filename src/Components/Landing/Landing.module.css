@@ -12,7 +12,7 @@
 }
 
 .landing__container {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -20,6 +20,11 @@
   top: 17rem;
   width: 50rem;
   height: 30vh;
+  /* background-color: rgba(27, 20, 36, 0.6); */
+}
+
+video source {
+  width: 100%;
 }
 
 .landing__container span {
@@ -27,6 +32,7 @@
   font-weight: 700;
   font-family: "Oleo Script", cursive;
   padding: 0.2em;
+  color: var(--color-white);
 }
 
 .landing__arrow {
