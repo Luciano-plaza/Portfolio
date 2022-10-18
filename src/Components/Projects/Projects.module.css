@@ -47,9 +47,9 @@
 
 .project__img {
   grid-area: photo;
-  width: 95%;
+  width: 86%;
   height: 95%;
-  margin: 2.5%;
+  margin: 2.5% 7%;
   border-radius: 1.5rem;
 }
 
@@ -103,30 +103,19 @@
   grid-area: list;
 }
 
-/* .project__animation {
-  animation: project 0.6s 1 forwards ease;
-} */
 /* Eventos y animaciones */
 .project__link button:hover {
   background-color: var(--color-black);
   color: var(--color-white);
+  transform: scale(1.2);
 }
 
 .project:hover {
   box-shadow: none;
 }
 
-/* @keyframes transform {
-  0% {
-    transform: translateX(200%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-} */
-
 /* Responsive */
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   .project:nth-child(n) {
     display: flex;
     flex-direction: column;

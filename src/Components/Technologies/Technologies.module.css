@@ -16,7 +16,7 @@
 }
 .shadow {
   height: 10rem;
-  width: 70%;
+  width: 85%;
   position: absolute;
   left: 7%;
   box-shadow: inset 3em 0 3em var(--color-white);
@@ -24,7 +24,7 @@
 }
 .shadow2 {
   height: 10rem;
-  width: 16%;
+  width: 85%;
   position: absolute;
   right: 7%;
   box-shadow: inset 3em 0 3em var(--color-white);
@@ -58,13 +58,5 @@
   100% {
     transform: translateX(calc(-10rem * 13));
     -webkit-animation: translateX(calc(-10rem * 13));
-  }
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .shadow2 {
-    width: 18%;
-    right: 5%;
   }
 }

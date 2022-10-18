@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap");
 :root {
   --time: 800ms;
+  --delay: 450ms;
 }
 
 .landing {
@@ -9,6 +10,12 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  background-color: black;
+}
+.landing__background {
+  width: 100%;
+  height: 100vh;
+  background: url("../../Images/BG-port-1920.jpg") no-repeat center;
 }
 
 .landing__container {
@@ -23,10 +30,6 @@
   /* background-color: rgba(27, 20, 36, 0.6); */
 }
 
-video source {
-  width: 100%;
-}
-
 .landing__container span {
   font-size: 4.3rem;
   font-weight: 700;
@@ -39,7 +42,7 @@ video source {
   position: absolute;
   right: 47%;
   top: 90%;
-  transition: 1s ease;
+  transition: 0.7s ease;
   background-color: var(--color-2);
   border-radius: 5px;
   cursor: pointer;
@@ -55,40 +58,43 @@ video source {
 }
 .landing__container span:nth-child(2) {
   transform: translate(-20vw, -50vh);
-  animation: span2 var(--time) 0.5s forwards 1 ease-out;
+  animation: span2 var(--time) var(--delay) forwards 1 ease-out;
 }
 .landing__container span:nth-child(4) {
   transform: translate(20vw, -50vh);
-  animation: span4 var(--time) 1s forwards 1 ease-out;
+  animation: span4 var(--time) calc(var(--delay) * 2) forwards 1 ease-out;
 }
 .landing__container span:nth-child(5) {
   transform: translate(50vw);
-  animation: span5 var(--time) 1.5s forwards 1 ease-out;
+  animation: span5 var(--time) calc(var(--delay) * 3) forwards 1 ease-out;
 }
 .landing__container span:nth-child(6) {
   transform: translate(-50vw, 50vh);
-  animation: span6 var(--time) 2s forwards 1 ease-out;
+  animation: span6 var(--time) calc(var(--delay) * 4) forwards 1 ease-out;
 }
 .landing__container span:nth-child(7) {
   transform: translate(-30vw, 60vh);
-  animation: span7 var(--time) 2.5s forwards 1 ease-out;
+  opacity: 0;
+  animation: span7 var(--time) calc(var(--delay) * 5) forwards 1 ease-out;
 }
 .landing__container span:nth-child(8) {
   transform: translateY(60vh);
-  animation: span8 var(--time) 3s forwards 1 ease-out;
+  opacity: 0;
+  animation: span8 var(--time) calc(var(--delay) * 6) forwards 1 ease-out;
 }
 .landing__container span:nth-child(9) {
   transform: translate(30vw, 60vh);
-  animation: span9 var(--time) 3.5s forwards 1 ease-out;
+  opacity: 0;
+  animation: span9 var(--time) calc(var(--delay) * 7) forwards 1 ease-out;
 }
 .landing__container span:nth-child(10) {
   transform: translate(50vw, 50vh);
-  animation: span10 var(--time) 4s forwards 1 ease-out;
+  animation: span10 var(--time) calc(var(--delay) * 8) forwards 1 ease-out;
 }
 
 /* Eventos y animaciones */
 .landing__arrow:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 @keyframes bell {
@@ -169,27 +175,33 @@ video source {
 @keyframes span7 {
   0% {
     transform: translate(-30vw, 70vh);
+    opacity: 0;
   }
   100% {
     transform: translate(0);
+    opacity: 1;
   }
 }
 
 @keyframes span8 {
   0% {
     transform: translateY(60vh);
+    opacity: 0;
   }
   100% {
     transform: translateY(0);
+    opacity: 1;
   }
 }
 
 @keyframes span9 {
   0% {
     transform: translate(30vw, 60vh);
+    opacity: 0;
   }
   100% {
     transform: translate(0);
+    opacity: 1;
   }
 }
 
@@ -202,14 +214,31 @@ video source {
   }
 }
 
+@keyframes landing {
+  0% {
+    transform: translateY(-70vh);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
-  html {
-    width: 102%;
+  .landing__background {
+    background: url("../../Images/BG-port-768.jpg") no-repeat center;
+    background-size: cover;
+    opacity: 0.5;
   }
+  .landing__container {
+    transform: translateY(-70vh);
+    animation: landing var(--time) 300ms forwards 1 ease-out;
+  }
+  
   .landing__container {
     height: fit-content;
     margin: 1em;
+    width: 90%;
     top: 10em;
   }
   .landing__container span {
@@ -217,6 +246,7 @@ video source {
   }
   .landing__container span:nth-child(n) {
     transform: translate(0);
+    opacity: 1;
     animation: none;
   }
 }

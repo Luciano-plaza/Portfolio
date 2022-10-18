@@ -3,12 +3,12 @@ import style from "./Nav.module.css";
 
 export default function Nav() {
   return (
-    <header>
-      <label for="menu" className={style.nav__menu}>
+    <nav className={style.nav__container}>
+      <label for="menu" className={style.nav__label}>
         <img src={Menu} alt="Menu" />
       </label>
       <input type="checkbox" id="menu" className={style.nav__check} />
-      <div className={style.nav__container}>
+      <div className={style.nav__menu}>
         <div className={style.nav__element}>
           <a href="#about">Acerca de mí</a>
         </div>
@@ -19,6 +19,6 @@ export default function Nav() {
           <a href="#contacto">Contacto</a>
         </div>
       </div>
-    </header>
+    </nav>
   );
 }

@@ -5,7 +5,7 @@ import YourJob from "../../Images/PF-YourJob.WebP";
 export default function Projects(props) {
   return (
     <section className={style.projects__container} id="projects">
-      <h2>Projects</h2>
+      <h2>Projectos</h2>
       <div className={`${style.project}`}>
         <img src={Foodies} alt="Foodies" className={style.project__img} />
         <h3 className={style.project__title}>Foodies</h3>
@@ -52,7 +52,7 @@ export default function Projects(props) {
         </p>
         <h4 className={style.project__title__list}>Funcionalidades</h4>
         <ul className={style.project__list}>
-          <li>Postear en el foro</li>
+          <li>Postear en un foro</li>
           <li>Colgar anuncios de trabajos para contactar con las personas</li>
           <li>Contactar con empresas o personas por chat</li>
           <li>
