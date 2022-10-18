@@ -29,7 +29,7 @@ export default function Mailer() {
         name="message"
         placeholder="Messagge..."
       />
-      <button className={style.mailer__submit} type="submit">
+      <button className={style.mailer__submit} type="submit" disabled>
         <img src={arrow} alt="Send" />
       </button>
     </form>
