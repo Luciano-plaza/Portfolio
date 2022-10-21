@@ -60,7 +60,7 @@ export default function Mailer() {
         placeholder="Messagge..."
         onChange={handleChange}
       />
-      <button className={`${style.mailer__submit}`} type="submit">
+      <button className={style.mailer__submit} type="submit">
         <img src={arrow} alt="Send" />
       </button>
       <div className={style.mailer__submit__active}>
