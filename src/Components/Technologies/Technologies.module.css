@@ -42,21 +42,13 @@
 }
 
 .tech__container {
-  width: 10rem;
+  width: auto;
   height: auto;
   margin: 0 0.75rem;
 }
 
 .tech__container img {
   width: 100%;
-}
-
-.css {
-  height: 8rem;
-}
-
-.sequelize {
-  height: 9rem;
 }
 
 .technologies__title {

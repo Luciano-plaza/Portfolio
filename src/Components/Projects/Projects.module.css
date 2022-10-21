@@ -47,9 +47,9 @@
 
 .project__img {
   grid-area: photo;
-  width: 86%;
+  width: 95%;
   height: 95%;
-  margin: 2.5% 7%;
+  margin: 2.5%;
   border-radius: 1.5rem;
 }
 
