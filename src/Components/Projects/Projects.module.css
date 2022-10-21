@@ -21,7 +21,7 @@
     ". links links .";
   margin: 3rem 5%;
   border-radius: 2em;
-  background-color: var(--color-white);
+  /* background-color: var(--color-white); */
 }
 .project:nth-child(2n + 1) {
   display: grid;
@@ -36,13 +36,13 @@
     ". links links .";
   margin: 3rem 5%;
   border-radius: 2em;
-  background-color: var(--color-white);
+  /* background-color: var(--color-white); */
 }
 
 .project {
-  box-shadow: -10px 10px 0px 0px var(--color-2),
-    10px -10px 0px 0px var(--color-black);
+  box-shadow: none;
   transition: box-shadow 0.3s ease;
+  background-color: #eae6e5dd;
 }
 
 .project__img {
@@ -91,7 +91,7 @@
   border-radius: 5px;
   font-weight: 700;
   font-size: 1em;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 .project__title__list {
@@ -105,13 +105,14 @@
 
 /* Eventos y animaciones */
 .project__link button:hover {
-  background-color: var(--color-black);
-  color: var(--color-white);
-  transform: scale(1.2);
+  background-color: var(--color-2);
+  transform: translate(5px, -5px);
+  box-shadow: var(--shadow);
 }
 
 .project:hover {
-  box-shadow: none;
+  box-shadow: -10px 10px 0px 0px var(--color-2),
+    10px -10px 0px 0px var(--color-black);
 }
 
 /* Responsive */
@@ -132,5 +133,6 @@
   .project__link button:hover {
     background-color: var(--color-2);
     color: var(--color-black);
+    transform: none;
   }
 }

@@ -4,7 +4,7 @@ import style from "./Nav.module.css";
 export default function Nav() {
   return (
     <nav className={style.nav__container}>
-      <label for="menu" className={style.nav__label}>
+      <label htmlFor="menu" className={style.nav__label}>
         <img src={Menu} alt="Menu" />
       </label>
       <input type="checkbox" id="menu" className={style.nav__check} />

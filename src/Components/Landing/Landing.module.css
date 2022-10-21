@@ -27,7 +27,6 @@
   top: 17rem;
   width: 50rem;
   height: 30vh;
-  /* background-color: rgba(27, 20, 36, 0.6); */
 }
 
 .landing__container span {
@@ -42,7 +41,7 @@
   position: absolute;
   right: 47%;
   top: 90%;
-  transition: 0.7s ease;
+  transition: 0.7s ease-out;
   background-color: var(--color-2);
   border-radius: 5px;
   cursor: pointer;
@@ -230,11 +229,14 @@
     background-size: cover;
     opacity: 0.5;
   }
+  .landing__arrow:hover {
+    transform: none;
+  }
   .landing__container {
     transform: translateY(-70vh);
     animation: landing var(--time) 300ms forwards 1 ease-out;
   }
-  
+
   .landing__container {
     height: fit-content;
     margin: 1em;

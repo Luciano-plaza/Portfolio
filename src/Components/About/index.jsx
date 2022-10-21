@@ -1,4 +1,4 @@
-import Photo from "../../Images/photo__about.WebP";
+import Photo from "../../Images/photo_about.WebP";
 import style from "./About.module.css";
 import Tilt from "react-parallax-tilt";
 import GitHub from "../../Icons/GitHub.svg";
@@ -12,7 +12,7 @@ export default function About() {
       <div className={style.about__container}>
         <Tilt
           tiltMaxAngleX={5}
-          tiltMaxAngleY={10}
+          tiltMaxAngleY={4}
           scale={1.05}
           transitionSpeed={600}
           perspective={1300}

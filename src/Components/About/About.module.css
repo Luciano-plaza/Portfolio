@@ -27,10 +27,8 @@
     "photo photo photo description description description description"
     "links links links links links links links";
   gap: 1em;
-  background-color: var(--color-white);
+  background-color: #fbf7f699;
   border-radius: 1em;
-  border: var(--color-white) 1px solid;
-  box-shadow: 0 0 2em 0.5em var(--color-white);
 }
 
 .about__title {
@@ -72,16 +70,18 @@
   border: 1px solid var(--color-black);
   cursor: pointer;
   color: var(--color-black);
-  transition: all 0.3s ease-out;
+  transition: 0.3s ease-out;
   background-color: transparent;
   text-decoration: none;
   font-size: 24px;
+  box-shadow: none;
 }
 
 /* Eventos y animaciones */
 .about__link:hover {
   background-color: var(--color-2);
-  transform: scale(1.1);
+  transform: translate(5px, -5px);
+  box-shadow: var(--shadow);
 }
 
 /* Responsive */
@@ -103,7 +103,7 @@
   }
 
   .about__img {
-    margin: 0;
+    margin: 1em 0;
     width: 55%;
     height: auto;
   }
@@ -126,5 +126,7 @@
   .about__link:hover {
     background-color: transparent;
     transform: none;
+    box-shadow: none;
+  
   }
 }
