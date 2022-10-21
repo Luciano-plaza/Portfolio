@@ -1,9 +1,17 @@
-.technologies__container {
+.technologies__background {
+  background: url(../../Images/BG-techs.jpg) fixed no-repeat center;
+  background-size: cover;
+  height: 22em;
   margin: 5rem auto;
+}
+
+.technologies__container {
+  margin: auto;
   width: 86%;
   height: 18rem;
   overflow: hidden;
 }
+
 .technologies__banner {
   display: flex;
   background-color: var(--color-white);
@@ -13,6 +21,7 @@
   animation: scroll 20s linear infinite;
   -webkit-animation: scroll 20s linear infinite;
 }
+
 .shadow {
   height: 10rem;
   width: 85%;
@@ -21,6 +30,7 @@
   box-shadow: inset 3em 0 3em var(--color-white);
   z-index: 50;
 }
+
 .shadow2 {
   height: 10rem;
   width: 85%;
@@ -30,20 +40,25 @@
   z-index: 50;
   transform: rotate(180deg);
 }
+
 .tech__container {
   width: 10rem;
   height: auto;
   margin: 0 0.75rem;
 }
+
 .tech__container img {
   width: 100%;
 }
+
 .css {
   height: 8rem;
 }
+
 .sequelize {
   height: 9rem;
 }
+
 .technologies__title {
   text-align: center;
   margin: 1em;

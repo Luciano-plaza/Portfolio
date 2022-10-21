@@ -3,7 +3,7 @@ import Arrow from "../../Icons/ArrowDown.svg";
 
 export default function Landing() {
   return (
-    <section className={style.landing}>
+    <section className={style.landing} id="beginning">
       <div className={style.landing__background}></div>
       <div className={style.landing__container}>
         <span>Hola,</span>

@@ -17,8 +17,8 @@
   padding: 0 5px;
   height: 3em;
   background-color: transparent;
-  transition: 0.5s ease;
-  border: 1px solid silver;
+  transition: border 0.5s ease;
+  border: 2px solid silver;
   color: var(--color-2);
 }
 
@@ -28,8 +28,8 @@
   padding: 0.5em 5px;
   height: 15em;
   background-color: transparent;
-  transition: 0.3s ease;
-  border: 1px solid silver;
+  transition: border 0.5s ease;
+  border: 2px solid silver;
   color: var(--color-2);
 }
 

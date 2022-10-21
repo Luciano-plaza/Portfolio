@@ -59,6 +59,7 @@
   margin: 1rem;
 }
 .project__title {
+  margin-top: 1em;
   grid-area: title;
   text-align: center;
   display: inline-block;
@@ -101,6 +102,8 @@
 }
 .project__list {
   grid-area: list;
+  width: 90%;
+  margin-left: 5%;
 }
 
 /* Eventos y animaciones */
