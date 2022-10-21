@@ -6,6 +6,7 @@ import Projects from "../Projects/index.jsx";
 import Landing from "../Landing/index.jsx";
 
 export default function HomeSpanish() {
+  console.log(window)
   return (
     <>
       <Nav />

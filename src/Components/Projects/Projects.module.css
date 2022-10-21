@@ -20,8 +20,7 @@
     "list list list list"
     ". links links .";
   margin: 3rem 5%;
-  border-radius: 2em;
-  /* background-color: var(--color-white); */
+  border-radius: 1em;
 }
 .project:nth-child(2n + 1) {
   display: grid;
@@ -35,8 +34,7 @@
     "list list list list"
     ". links links .";
   margin: 3rem 5%;
-  border-radius: 2em;
-  /* background-color: var(--color-white); */
+  border-radius: 1em;
 }
 
 .project {
@@ -47,10 +45,10 @@
 
 .project__img {
   grid-area: photo;
-  width: 95%;
-  height: 95%;
-  margin: 2.5%;
-  border-radius: 1.5rem;
+  width: 90%;
+  height: 90%;
+  margin: 5%;
+  border-radius: 1rem;
 }
 
 .project__description {
