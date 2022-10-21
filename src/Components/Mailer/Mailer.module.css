@@ -119,7 +119,7 @@
     transform: rotate(0);
   }
 
-  .mailer__submit__desactive button:hover {
+  .mailer__submit__desactive div:hover {
     transform: none;
     box-shadow: none;
   }
