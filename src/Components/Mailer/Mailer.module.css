@@ -70,7 +70,10 @@
   text-align: center;
   top: 20%;
 }
-.mailer__submit__desactive button {
+.mailer__submit__desactive div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   margin-top: 2em;
   width: 8em;
@@ -93,7 +96,7 @@
   transform: rotate(-2turn);
 }
 
-.mailer__submit__desactive button:hover {
+.mailer__submit__desactive div:hover {
   transform: translate(5px, -5px);
   box-shadow: var(--shadow);
 }

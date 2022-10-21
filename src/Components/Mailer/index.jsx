@@ -44,34 +44,36 @@ export default function Mailer() {
     }
   };
   return (
-    <form onSubmit={sendEmail} className={style.mailer__form}>
-      <input
-        className={`${style.mailer__email}`}
-        type="email"
-        name="email"
-        value={form.email}
-        placeholder="Email"
-        onChange={handleChange}
-      />
-      <textarea
-        className={`${style.mailer__text}`}
-        name="text"
-        value={form.text}
-        placeholder="Messagge..."
-        onChange={handleChange}
-      />
-      <button className={style.mailer__submit} type="submit">
-        <img src={arrow} alt="Send" />
-      </button>
-      <div className={style.mailer__submit__active}>
-        {effect && (
-          <div className={style.mailer__submit__desactive}>
-            <h2>Listo!</h2>
-            <p>Tu mensaje fue enviado con éxito</p>
-            <button>Home</button>
-          </div>
-        )}
-      </div>
-    </form>
+    <div>
+      <form onSubmit={sendEmail} className={style.mailer__form}>
+        <input
+          className={`${style.mailer__email}`}
+          type="email"
+          name="email"
+          value={form.email}
+          placeholder="Email"
+          onChange={handleChange}
+        />
+        <textarea
+          className={`${style.mailer__text}`}
+          name="text"
+          value={form.text}
+          placeholder="Messagge..."
+          onChange={handleChange}
+        />
+        <button className={style.mailer__submit} type="submit">
+          <img src={arrow} alt="Send" />
+        </button>
+        <div className={style.mailer__submit__active}>
+          {effect && (
+            <div className={style.mailer__submit__desactive}>
+              <h2>Listo!</h2>
+              <p>Tu mensaje fue enviado con éxito</p>
+              <div>Home</div>
+            </div>
+          )}
+        </div>
+      </form>
+    </div>
   );
 }

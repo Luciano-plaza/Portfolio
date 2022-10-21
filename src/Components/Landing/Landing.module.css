@@ -39,7 +39,8 @@
 
 .landing__arrow {
   position: absolute;
-  right: 47%;
+  display: flex;
+  justify-content: center;
   top: 90%;
   transition: 0.7s ease-out;
   background-color: var(--color-2);
