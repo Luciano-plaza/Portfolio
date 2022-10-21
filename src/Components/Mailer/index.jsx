@@ -19,14 +19,14 @@ export default function Mailer() {
   const sendEmail = (event) => {
     event.preventDefault();
     if (!Object.values(form)[0] || !Object.values(form)[1]) {
-      // swal({
-      //   icon: "error",
-      //   title: "Error",
-      //   text: "Por favor completa todos los campos",
-      //   closeOnClickOutside: false,
-      // });
-      setEffect(true);
+      swal({
+        icon: "error",
+        title: "Error",
+        text: "Por favor completa todos los campos",
+        closeOnClickOutside: false,
+      });
     } else {
+      setEffect(true);
       emailjs
         .sendForm(
           "service_6n71u9i",
